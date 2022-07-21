@@ -1,10 +1,9 @@
-<html>
-    <header>
-        <title>Smart Notes!</title>
-    </header>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
     <h1>
         Welcome to Smartnotes</h1>
         <p>Today is {{today}}</p>
-</body>
-</html>
+
+        <a href="{% url 'notes.list' %}" class="btn btn-primary">Check Out These Smart Notes</a>
+{% endblock %}
