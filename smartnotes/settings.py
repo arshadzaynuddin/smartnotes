@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--bi854*m=fyxp&$j(d+!zmzbd0x5&-jqx_z#d1jzy*c$$gw1+=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','smartnote-arshuz.herokuapp.com/']
 
 
 # Application definition
