@@ -1,1 +1,1 @@
-web: gunicorn LNK.wsgi --log-file -
+web: gunicorn smartnotes.wsgi --log-file -
